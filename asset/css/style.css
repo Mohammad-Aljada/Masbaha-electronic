@@ -1,16 +1,29 @@
 .box {
-  background-color: darkgreen;
-  padding: 12px;
+  background-color: rgb(162, 229, 162);
+  padding: 15px 30px;
   border-radius: 6px;
+  gap: 20px;
+  transition: transform 2s;
+  transform:scale(1);
+
+}
+.box:hover{
+  box-shadow: 5px 5px 8.2372px 0px rgba(0, 0, 0, 0.05);
+  transform:scale(1.15);
 }
 button {
   border: 1px solid black;
   border-radius: 6px;
-  padding: 10px;
-  font-size: 16px;
+  padding:  10px;
+  background-color:rgb(125, 129, 125);
 }
 span {
   color: #fff;
   font-size: 20px;
   background-color: gray;
+  padding: 10px 30px;
+}
+
+button:hover{
+  background-color:rgb(107, 227, 107);
 }
